@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-input-type": [
+        "dist/ngx-input-type"
+      ],
+      "ngx-input-type/*": [
+        "dist/ngx-input-type/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
