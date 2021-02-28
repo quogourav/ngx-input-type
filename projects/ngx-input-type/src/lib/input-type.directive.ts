@@ -4,7 +4,7 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
   selector: '[ngxInputType]'
 })
 export class InputTypeDirective {
-  @Input() inputType: 'NumberOnly' | 'AlphaNumeric' | 'AlphabetOnly';
+  @Input('ngxInputType') inputType: 'NumberOnly' | 'AlphaNumeric' | 'AlphabetOnly';
   @Input() spaceAllowed = false;
 
   constructor(private _el: ElementRef) { }
