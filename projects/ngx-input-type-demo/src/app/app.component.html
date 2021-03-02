@@ -1,32 +1,29 @@
 <div>
   <div>Number Only</div>
   <input type="text" ngxInputType="NumberOnly" />
-
-  <div> Number with space allowed </div>
-  <input type="text" ngxInputType="NumberOnly" [spaceAllowed]="true" />
-
-  <div> Number with max-length </div>
-  <input type="text" ngxInputType="NumberOnly" maxlength="10" />
-</div>
-
-<div>
-  <div>Alphanumeric</div>
-  <input type="text" ngxInputType="AlphaNumeric" />
-
-  <div>Alphanumeric with space allowed </div>
-  <input type="text" ngxInputType="AlphaNumeric" [spaceAllowed]="true" />
-
-  <div>Alphanumeric with max-length </div>
-  <input type="text" ngxInputType="AlphaNumeric" maxlength="10" />
 </div>
 
 <div>
   <div>Alphabet Only</div>
   <input type="text" ngxInputType="AlphabetOnly" />
+</div>
 
-  <div>Alphabet with space allowed </div>
-  <input type="text" ngxInputType="AlphabetOnly" [spaceAllowed]="true" />
+<div>
+  <div>Alphanumeric</div>
+  <input type="text" ngxInputType="AlphaNumeric" />
+</div>
 
-  <div>Alphabet with max-length </div>
-  <input type="text" ngxInputType="AlphabetOnly" maxlength="10" />
+<div>
+  <div>AlphaNumeric With Spaces</div>
+  <input type="text" ngxInputType="AlphaNumeric" [spaceAllowed]="true" />
+</div>
+
+<div>
+  <div>AlphaNumeric With Special Characters</div>
+  <input type="text" ngxInputType="AlphaNumeric" specialCharacters="%!@#$^&*()" />
+</div>
+
+<div>
+  <div>AlphaNumeric With Max Length (10)</div>
+  <input type="text" ngxInputType="AlphaNumeric" maxlength="10" />
 </div>
